@@ -30,4 +30,5 @@ add_upstream:
 	git merge upstream/main
 
 upstream:
-	git pull --depth=1 upstream main
+	git fetch --depth=1 upstream main
+	git rebase FETCH_HEAD
