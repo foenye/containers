@@ -32,3 +32,7 @@ add_upstream:
 upstream:
 	git fetch --depth=1 upstream main
 	git rebase FETCH_HEAD
+
+# sed -i 's#deb.debian.org#mirrors.aliyun.com#g' /etc/apt/sources.list
+# install_packages ria2c
+# ria2c -x 16 -s 32 "${DOWNLOADS_URL}/${COMPONENT}.tar.gz"
