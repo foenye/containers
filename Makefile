@@ -5,7 +5,7 @@ _clone:
 		--no-tags \
 		--filter=tree:0 \
 		--sparse \
-		$(GITHUB)/bitnami/containers.git
+		$(GITHUB)/foenye/containers.git
 
 _config:
 	git sparse-checkout set \
